@@ -1,0 +1,60 @@
+body {
+    font-family: 'Revalia', cursive;
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.profile {
+    width: 200;
+    height: 200;
+    margin-bottom: 20px;
+}
+
+.img-thumbnail {
+    background-color: rgba(24, 147, 218, 0.918);
+}
+
+.hero {
+    font-size: 70px;
+    letter-spacing: -0.5px;
+    line-height: 1.25em;
+    color: rgb(189, 135, 35);
+    padding-bottom: 5px;
+}
+
+.color-gym {
+    background-color: #ff6633;
+}
+
+.color-coffee {
+    background-color: #581802f8;
+}
+
+.color-tacky {
+    background-color: #aaafaefa;
+}
+
+.color-todo {
+    background: linear-gradient(to right, magenta, blue);
+}
+
+.color-tech {
+    background-color: #a117eb;
+}
+
+.color-pokemon{
+    background-color: #04b5a6;
+}
+
+.imaplc img {
+    width: 200px;
+    height: 265px;
+}
+
+a:hover, :active {
+    text-decoration: none;
+}
+
+.place {
+    padding-top: 10px;
+}
