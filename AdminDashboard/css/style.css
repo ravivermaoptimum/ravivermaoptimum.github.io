@@ -1,0 +1,60 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-sidebar {
+    margin: 70px -20px 20px 20px;
+}
+
+.nav-sidebar > li > a {
+    padding-left: 20px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-sidebar > li {
+    padding: 10px;
+}
+
+button {
+    float: right;
+    margin-top: -60px;
+    padding: 0px auto;
+}
+
+.sidebar {
+    background-color: rgb(5, 11, 15);
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(139, 139, 255, 0.46);
+}
+
+.placeholders {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.placeholder > img {
+    border-radius: 75%;
+    display: inline;
+    margin-bottom: 20px;
+
+}
+
+.table-responsive {
+    margin-bottom: 50px;
+}
+
+.fixed-bottom {
+    margin-top: 50px;
+
+    text-align: center;
+    background-color: ;
+}

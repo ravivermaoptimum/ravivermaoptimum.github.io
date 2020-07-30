@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;
+    background: linear-gradient(to right,magenta,blue);
+    font-family: 'MuseoModerno', cursive;
+}
+
+.wrapper{
+    width: 400px;
+    height: 429px;
+    margin: 50px auto;
+    border: solid 8px black;
+    border-radius: 20px;
+    background: white;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: linear-gradient(rgb(24, 221, 109),rgb(3, 66, 66),rgb(3, 128, 57));
+    border-radius: 10px 10px 0px 0px;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+}
+
+span{
+    border-bottom: dashed 3px yellowgreen;
+    display: block;
+    height: 90%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.wrap-list{
+    height: 89%;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: inset 0 0 10px rgb(132, 0, 255);
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.3);
+}
+.list{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.list li{
+    width: 100%;
+    float: left;
+
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 90%;
+}
+
+.gray{
+    background: #6816eb3b;
+}
